@@ -1,8 +1,8 @@
 body {margin: 0; padding: 0;}
 .wrapper {
   display: block;
-  background: #D87CA6;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +10,6 @@ body {margin: 0; padding: 0;}
 
 nav {
   display: block;
-  background: #F9C9DE
   }
 
 .navlinks {
@@ -21,7 +20,6 @@ nav {
   }
 .navlinks a {
   text-decoration: none;
-  color: #964868;
   display: inline-block;
   padding: 10px;
   }
@@ -29,8 +27,7 @@ nav {
 .left {
   display: inline-block;
   vertical-align: top;
-  background: #FFFAFA;
-  width: 200px;
+  width: 20%;
   min-height: 500px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -41,10 +38,8 @@ nav {
 .right {
   display: inline-block;
   vertical-align: top;
-  width: 610px;
+  width: 59%;
   min-height: 500px;
-  background: #FFF3F3;
-  color: #793152;
   margin: 20px;
   padding: 30px;
   margin-left: 0px;
@@ -52,7 +47,5 @@ nav {
 
 footer {
   display: block;
-  background: black;
-  color: white;
   padding: 10px;
 }

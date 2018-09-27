@@ -2,7 +2,8 @@ body {margin: 0; padding: 0;}
 .wrapper {
   display: block;
   background: #D87CA6;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +31,7 @@ nav {
   display: inline-block;
   vertical-align: top;
   background: #FFFAFA;
-  width: 200px;
+  width: 20%;
   min-height: 500px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -41,10 +42,10 @@ nav {
 .right {
   display: inline-block;
   vertical-align: top;
-  width: 610px;
-  min-height: 500px;
   background: #FFF3F3;
   color: #793152;
+  width: 59%;
+  min-height: 500px;
   margin: 20px;
   padding: 30px;
   margin-left: 0px;
