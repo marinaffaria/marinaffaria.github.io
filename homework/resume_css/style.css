@@ -13,7 +13,9 @@ ul {
 }
 
 .customlist {
+  list-style-type: none;
   color: lightblue;
+
 }
 #maintitle {
   font-family: 'Cinzel', serif;
