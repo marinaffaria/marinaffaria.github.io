@@ -1,0 +1,10 @@
+body {
+  background: url('../images/gradient.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  color: #cc33ff;
+  padding: 20px;
+  background: #F9C9DE;
+}
