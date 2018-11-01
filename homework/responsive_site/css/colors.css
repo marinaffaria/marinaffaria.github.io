@@ -4,7 +4,27 @@ body {
   background-size: cover;
 }
 p {
-  color: #cc33ff;
+  color: #000000;
   padding: 20px;
   background: #F9C9DE;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+ul li a {
+  padding: 20px;
+  background: url('../images/gradient.png')
+  background-size: cover;
+  background-position: bottom;
+}
+
+ul li a:hover {
+  background-position: top;
 }
