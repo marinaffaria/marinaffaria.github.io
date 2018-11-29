@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-p {
+p, .tranparent {
   color: #000000;
   padding: 20px;
   background: #FFFFFF88;
