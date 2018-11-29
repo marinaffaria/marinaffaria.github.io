@@ -1,0 +1,10 @@
+body {
+  background: url('../images/bg2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  ul li a {
+    padding: 20px;
+    background: url('../images/bg2.jpeg')
+    background-size: cover;
+    background-position: bottom;
