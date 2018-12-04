@@ -17,9 +17,7 @@ ul {
   color: lightblue;
 
 }
-#maintitle {
-  font-family: 'Cinzel', serif;
-}
+
 .paragraphfont{
   font-family: 'Overlock', cursive;
 }
@@ -35,7 +33,13 @@ ul {
   min-height: 100px;
   }
 
-  .center
-  {display: block;
-    margin-left: auto;
-  margin-right: auto;}
+.center
+  {text-align: center;}
+
+#maintitle {
+  font-family: 'Anton', sans-serif;
+  }
+
+#hobbies {
+  font-family: 'Amatic SC', cursive;
+}
