@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>skrollr - parallax scrolling for the masses</title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
+
+		<h1><a href="https://github.com/Prinzhorn/skrollr">Australia</a></h1>
+		<h2>About Australia:</h2>
+		<img src="../../images/australia.jpg" alt="Map" width="300">
+		<p> Australia is the sixth biggest country in the world and the smallest continent. It lies between the Pacific and Indian Ocean, about 3,000 km from the mainland of Asia. It is very far away from Europe and by plane it takes you over 20 hours to get there. Australia is often called Down Under because the whole continent lies south of the equator.</p>
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+
+	</div>
+
+	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+
+		<h2>More on Australia</h2>
+		<p>All the world’s climates are found on the continent—from the tropical rainforest in the north to the cool and temperate climates in the south and southeast. Australia was once a British colony and after its discovery in 1788 people from Great Britain settled there.</p>
+	</div>
+
+	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+		<h3>Landmarks:</h3>
+    <ul>
+      <li>
+        <a href="https://www.sydneyoperahouse.com">Sydney Opera House</a>
+      </li>
+    </ul>
+    <img src="../../images/soh.jpg" alt="Sydney Opera House" width="100">
+    <ul>
+      <li>
+        <a href="http://uluru-australia.com">Uluru</a>
+      </li>
+    </ul>
+    <img src="../../images/uluru.jpg" alt="Uluru" width="100">
+    <ul>
+      <li>
+        <a href="https://www.australia.com/en/places/whitsundays-and-surrounds/guide-to-heart-reef.html">Heart Reef</a>
+      </li>
+    </ul>
+    <img src="../../images/heart.jpeg" alt="Heart Reef" width="100">
+    <ul>
+      <li>
+      <a href="https://www.tourkangarooisland.com.au">Kangaroo Island</a>
+      </li>
+    </ul>
+    <img src="../../images/kangaroo.jpg" alt="Kangaroo Island" width="100">
+    <ul>
+      <li>
+        <a href="https://us.sydney.com/things-to-do/beach-lifestyle/bondi-beach">Bondi Beach</a>
+      </li>
+    </ul>
+    <img src="../../images/pool.jpg" alt="Bondi Beach" width="100">
+
+    <script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>Facts</h2>
+			<p>
+				<ol>
+					<li>Size: 7.7 million square kilometres</li>
+					<br>
+					<li>Population: 19 million</li>
+					<br>
+					<li>Capital: Canberra</li>
+					<br>
+					<li>Biggest Cities: Sydney (3.7 m), Melbourne (3.1 m)</li>
+					<br>
+					<li>Flag: A British flag with five small stars that show the Southern Cross. One large star represents the country’s six territories.</li>
+					<br>
+					<li>Money: The Australian Dollar</li>
+					<br>
+				</ol></p>
+			<p><span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);"></span></p>
+			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">The country is divided into 6 states and two territories.</p>
+		</div>
+
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">Australia</div>
+		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">Australia</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+		<h2>The End</h2>
+		<p>Thank you for thanking your time and learning with us.</p>
+		<p><strong>Start planning your trip to our amazing Australia! <a href="https://github.com/Prinzhorn/skrollr"></a> Spread the word.</strong> <a
+		</p>
+		<p>Check out more <a href="https://github.com/Prinzhorn/skrollr/tree/master/examples#examples">examples</a>.</p>
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+</body>
+
+</html>
